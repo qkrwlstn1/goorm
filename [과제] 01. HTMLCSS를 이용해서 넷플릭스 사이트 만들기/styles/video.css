@@ -1,0 +1,95 @@
+.netflix-originals{
+    display: grid;
+    position: relative;
+    row-gap: 40px;
+    column-gap: 10px;
+    left: 50px;
+
+}
+.netflix-Trending{
+    display: grid;
+    position: relative;
+    row-gap: 40px;
+    column-gap: 10px;
+    left: 50px;
+    
+}
+.netflix-Trending img{
+    width : 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.video-grid{
+    width: auto;
+    transition: width 0.3s, box-shadow 0.3s;  /*  너비 변경 시 애니메이션 효과 */
+    margin-bottom : 10px;
+}
+.video-grid img{
+    width : 200px;
+    height : 300px;
+    object-fit: cover;
+    z-index: 5;
+}
+
+.video-grid:hover img {
+    z-index : 7;
+    
+    width: 300px;
+    transition: width 0.3s; /* 애니메이션 효과 */
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+}
+.video-grid-td:hover img {
+    z-index : 7;
+    
+    width: 300px;
+    transition: width 0.3s; /* 애니메이션 효과 */
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+}
+
+/* 추가된 부분: 형제 요소에 대한 스타일 */
+.video-grid:hover + .video-grid img,
+.video-grid:hover + .video-grid:hover img {
+    z-index: 5;
+}
+
+@media (min-width: 440px) and (max-width: 699px) {
+    .netflix-originals,
+    .netflix-Trending {
+        grid-template-columns: 1fr 1fr;
+    }
+}@media (min-width: 700px) and (max-width: 899px) {
+    .netflix-originals,
+    .netflix-Trending {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 900px) and (max-width: 1099px) {
+    .netflix-originals,
+    .netflix-Trending {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1399px) {
+    .netflix-originals,
+    .netflix-Trending {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1400px) {
+    .netflix-originals,
+    .netflix-Trending{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+.video-title{
+    font-size: 30px;
+
+}
+.video-title-container{
+    margin-bottom: 40px;
+}
+
