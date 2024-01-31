@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# [과제] 05. 리액트를 이용해서 CRUD 앱 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 초기 화면
+![스크린샷 2024-02-01 001629](https://github.com/qkrwlstn1/goorm/assets/75283640/79f9260b-e086-4ec8-91e4-d97efba6d204)
 
-## Available Scripts
 
-In the project directory, you can run:
+## 아이템 추가
+![스크린샷 2024-02-01 001840](https://github.com/qkrwlstn1/goorm/assets/75283640/7cd8298b-6af5-4c5c-8363-2e9c2e0fa66d)
 
-### `npm start`
+## 아이템 삭제
+![스크린샷 2024-02-01 001905](https://github.com/qkrwlstn1/goorm/assets/75283640/420d3f34-a36a-4b23-aa3d-1a29d52b539b)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 아이템 전부 삭제
+![스크린샷 2024-02-01 001910](https://github.com/qkrwlstn1/goorm/assets/75283640/b20443a3-8f30-4642-9060-e2db1a157dc6)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 아이템 수정
+![스크린샷 2024-02-01 003534](https://github.com/qkrwlstn1/goorm/assets/75283640/3972ac90-6f34-4a35-bf38-05dba751d271)
