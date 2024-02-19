@@ -81,6 +81,8 @@ export default class App extends Component {
                 total: newTotal,
                 isSubmitButton: true, // 버튼을 제출 상태로 변경
                 editingId: null, // 편집 중인 ID 초기화
+                msg: "수정 되었습니다",
+                msgClassName: "create msg"
             });
         });
     }
